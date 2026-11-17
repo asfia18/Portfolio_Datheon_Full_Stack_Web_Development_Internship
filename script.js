@@ -3,7 +3,7 @@ const projects = [
   {title:"Weather App", icon:"weather", c:["#0F766E","#38BDF8"], tags:["HTML","CSS","JavaScript"],
    short:"Check the weather for any city.",
    desc:"A responsive weather app where you search for a city and see its current conditions and forecast.",
-   live:"https://asfia18.github.io/skypulse_weather/"},
+   live:"https://asfia18.github.io/skypulse_weather_Datheon_Full_Stack_Web_Development_Internship/"},
   {title:"Pakistan Jobs Website", icon:"jobs", c:["#1F4FD8","#6E93FF"], tags:["HTML","CSS","JavaScript"],
    short:"A job listing website for Pakistan.",
    desc:"A website where visitors can browse job listings across Pakistan, with a clean and responsive layout.",
