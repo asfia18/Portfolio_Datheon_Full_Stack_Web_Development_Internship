@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light" data-accent="teal">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Asfia Ahsan | Software Engineer</title>
+<meta name="description" content="Asfia Ahsan, software engineer from Wah Cantt, Pakistan. Projects, skills, experience and contact details.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2222%22 fill=%22%230F766E%22/><text x=%2250%22 y=%2268%22 font-size=%2255%22 font-family=%22Arial%22 font-weight=%22700%22 fill=%22white%22 text-anchor=%22middle%22>A</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="starfield" aria-hidden="true"></canvas>
+
+<header class="topbar">
+  <b>Asfia Ahsan</b>
+  <div>
+    <button class="icon-btn theme-btn" aria-label="Switch to dark theme">◐</button>
+    <button class="icon-btn" id="menu" aria-label="Open menu" aria-expanded="false" aria-controls="nav">☰</button>
+  </div>
+</header>
+
+<div class="layout">
+  <aside>
+    <div class="avatar" role="img" aria-label="Asfia Ahsan initials">AA</div>
+    <span class="status">Open to opportunities</span>
+    <h1>Asfia Ahsan</h1>
+    <p class="role">Software Engineer</p>
+    <p class="tag">I build clean, reliable software and responsive web applications.</p>
+
+    <nav id="nav" aria-label="Main">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="side-foot">
+      <div class="social">
+        <a href="https://github.com/asfia18" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://linkedin.com/in/your-username" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:asfiaansari18@gmail.com">Email</a>
+      </div>
+      <div class="ctrl">
+        <div class="dots" role="group" aria-label="Accent colour">
+          <button class="dot" data-a="teal" style="background:#0F766E" aria-label="Teal" aria-pressed="true"></button>
+          <button class="dot" data-a="blue" style="background:#1F4FD8" aria-label="Blue" aria-pressed="false"></button>
+          <button class="dot" data-a="violet" style="background:#6D45E0" aria-label="Violet" aria-pressed="false"></button>
+          <button class="dot" data-a="amber" style="background:#C2620A" aria-label="Amber" aria-pressed="false"></button>
+        </div>
+        <button class="icon-btn theme-btn desk-only" aria-label="Switch to dark theme">◐</button>
+      </div>
+    </div>
+  </aside>
+
+  <main id="top">
+    <section id="about" style="padding-top:1rem">
+      <h2>About</h2>
+      <p>I'm a highly motivated software engineer developing innovative software solutions. I'm passionate about crafting efficient, scalable and reliable code, with a strong understanding of software design patterns.</p>
+      <p>I'm a collaborative team player with excellent problem-solving skills and a drive to deliver high-quality projects.</p>
+      <div class="stats">
+        <div class="stat"><b>BSSE</b><span>Uni of WAH</span></div>
+        <div class="stat"><b>2025</b><span>Web developer internship</span></div>
+        <div class="stat"><b>2</b><span>Featured projects</span></div>
+        <div class="stat"><b>3</b><span>Programming languages</span></div>
+      </div>
+      <div class="btns" style="margin-top:1.5rem">
+        <a class="btn primary" href="#projects">View projects</a>
+        <a class="btn ghost" href="Asfia Ahsan CV.pdf" download="Asfia Ahsan CV.pdf">Download CV</a>
+      </div>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <article class="item">
+        <span class="when">October 2026 – Present</span>
+        <h3>Full Stack Web Developer</h3>
+        <span class="org">Datheon</span>
+        <ul>
+          <li>Developing and maintaining responsive web applications across front-end and back-end components.</li>
+          <li>Building user-friendly interfaces and supporting application functionality.</li>
+          <li>Collaborating on web development tasks and troubleshooting implementation issues.</li>
+        </ul>
+        <ul class="tags">
+          <li class="chip">Full Stack Development</li>
+          <li class="chip">Frontend</li>
+          <li class="chip">Backend</li>
+          <li class="chip">Responsive Design</li>
+        </ul>
+      </article>
+
+      <article class="item">
+        <span class="when">2025 · 6 weeks</span>
+        <h3>Web Developer Intern</h3>
+        <span class="org">Pakistan Ordnance Factory (POF)</span>
+        <ul>
+          <li>Developed basic web applications using PHP, HTML, CSS and JavaScript.</li>
+          <li>Designed and implemented responsive user interfaces with HTML, CSS and JavaScript.</li>
+          <li>Used XAMPP to manage local MySQL databases for web applications.</li>
+          <li>Implemented basic CRUD (Create, Read, Update, Delete) operations using PHP and MySQL.</li>
+          <li>Worked with the team to debug and fix issues in web applications.</li>
+        </ul>
+      </article>
+
+      <h3 class="sub">Education</h3>
+      <article class="item">
+        <span class="when">2022 – 2026</span>
+        <h3>BS Software Engineering</h3>
+        <span class="org">Uni of WAH, Wah Cantt, Pakistan</span>
+      </article>
+      <article class="item">
+        <span class="when">2020 – 2022</span>
+        <h3>Intermediate</h3>
+        <span class="org">F.G Post Graduate College, Wah Cantt</span>
+      </article>
+      <article class="item">
+        <span class="when">2018 – 2020</span>
+        <h3>Matric</h3>
+        <span class="org">F.G Public Girls School, Wah Cantt</span>
+      </article>
+
+      <h3 class="sub">Final year and academic work</h3>
+      <div class="mini"><h3>Dynamic Prompt Engineering Using LLaMA (final year project)</h3><p>A prompt generator where the AI model creates and refines prompts from a user's query, tailored to platforms such as ChatGPT, Gemini, Microsoft Copilot and DeepSeek.</p></div>
+      <div class="mini"><h3>Smart Campus Application</h3><p>A single, secure platform for academic records, course registration, attendance, results, notices and timetables.</p></div>
+      <div class="mini"><h3>Hospital Management System</h3><p>Manages patient records, appointments and billing with secure access to patient data.</p></div>
+      <div class="mini"><h3>Restaurant Management System</h3><p>Automates ordering, billing, inventory and customer management.</p></div>
+    </section>
+
+    <section id="projects">
+      <h2>Featured projects</h2>
+      <div class="projects" id="grid"></div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div class="skill"><h3>Languages</h3><ul class="tags"><li class="chip">C++</li><li class="chip">Java</li><li class="chip">Python</li></ul></div>
+        <div class="skill"><h3>Web development</h3><ul class="tags"><li class="chip">HTML</li><li class="chip">CSS</li><li class="chip">JavaScript</li><li class="chip">PHP</li><li class="chip">MySQL</li></ul></div>
+      </div>
+      <h3 class="sub">Technical proficiency</h3>
+      <div class="language-list" aria-label="Self-assessed technical proficiency">
+        <div class="language-row"><div class="language-meta"><span>C++</span><span>75%</span></div><div class="track"><span style="--level:75%"></span></div></div>
+        <div class="language-row"><div class="language-meta"><span>Java</span><span>65%</span></div><div class="track"><span style="--level:65%"></span></div></div>
+        <div class="language-row"><div class="language-meta"><span>Python</span><span>70%</span></div><div class="track"><span style="--level:70%"></span></div></div>
+        <div class="language-row"><div class="language-meta"><span>HTML5</span><span>90%</span></div><div class="track"><span style="--level:90%"></span></div></div>
+        <div class="language-row"><div class="language-meta"><span>CSS3</span><span>85%</span></div><div class="track"><span style="--level:85%"></span></div></div>
+        <div class="language-row"><div class="language-meta"><span>JavaScript</span><span>75%</span></div><div class="track"><span style="--level:75%"></span></div></div>
+        <div class="language-row"><div class="language-meta"><span>PHP</span><span>70%</span></div><div class="track"><span style="--level:70%"></span></div></div>
+        <div class="language-row"><div class="language-meta"><span>MySQL</span><span>75%</span></div><div class="track"><span style="--level:75%"></span></div></div>
+      </div>
+      
+      <h3 class="sub">Soft skills</h3>
+      <div class="soft">
+        <div>Team work</div><div>Strong communication</div><div>Problem solving</div><div>Attention to detail</div><div>Time management</div>
+      </div>
+      <h3 class="sub">Languages spoken</h3>
+      <ul class="tags"><li class="chip">English</li><li class="chip">Urdu</li></ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p style="margin-bottom:1.25rem">Have a role, project or question? Send me a message and I'll reply soon.</p>
+      <div class="links">
+        <a href="mailto:asfiaansari18@gmail.com">Email <span>asfiaansari18@gmail.com</span></a>
+        <a href="tel:+923165063266">Phone <span>+92 316 5063266</span></a>
+        <a href="https://github.com/asfia18" target="_blank" rel="noopener">GitHub <span>github.com/asfia18</span></a>
+        <a href="https://www.linkedin.com/in/asfia-ahsan" target="_blank" rel="noopener">LinkedIn <span>linkedin.com/in/asfia-ahsan</span></a>
+      </div>
+      <form id="form">
+        <label>Name<input name="name" required autocomplete="name"></label>
+        <label>Email<input name="email" type="email" required autocomplete="email"></label>
+        <label>Message<textarea name="msg" required></textarea></label>
+        <button class="btn primary" type="submit">Send message</button>
+      </form>
+      <footer>© <span id="yr"></span> Asfia Ahsan. Wah Cantt, Pakistan.</footer>
+    </section>
+  </main>
+</div>
+
+<dialog id="modal" aria-labelledby="m-title">
+  <div class="m-top"></div>
+  <button class="icon-btn m-close" id="close" aria-label="Close project details">✕</button>
+  <div class="m-body">
+    <h3 id="m-title"></h3>
+    <p id="m-desc"></p>
+    <ul class="tags" id="m-tags"></ul>
+    <div class="btns">
+      <a class="btn primary" id="m-live" href="https://asfia18.github.io/Pakistan-Jobs/" target="_blank" rel="noopener">Live Demo <span aria-hidden="true">↗</span></a>
+      <span id="m-live-note" class="skill-note" hidden>Live demo link will be added soon.</span>
+    </div>
+  </div>
+</dialog>
+
+<script src="script.js" defer></script>
+</body>
+</html>
