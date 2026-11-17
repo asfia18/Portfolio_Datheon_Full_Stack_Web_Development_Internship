@@ -4,10 +4,8 @@ A responsive personal portfolio website showcasing my professional profile, work
 
 ##  Live Demo
 
-- **Portfolio Website:** Add your deployed portfolio URL here.
+- **Portfolio Website:** https://asfia18.github.io/Portfolio_Datheon_Full_Stack_Web_Development_Internship/
 - **Pakistan Jobs Website:** https://asfia18.github.io/Pakistan-Jobs/
-
-> Replace the portfolio website placeholder with your actual GitHub Pages URL after deployment.
 
 ##  Features
 
@@ -42,7 +40,7 @@ A responsive weather application concept that allows users to search for a city 
 
 **Technologies:** HTML, CSS, JavaScript
 
-**Live Demo:** Add the deployed Weather App URL when available.
+**Live Demo:** https://asfia18.github.io/skypulse_weather_Datheon_Full_Stack_Web_Development_Internship/
 
 ### 2. Pakistan Jobs Website
 
